@@ -116,12 +116,15 @@ export const App = () => (
 				<h1 className="text-3xl">{'}'}</h1>
 				<h1 className="text-3xl -ml-12">{'}'}</h1>
 			</div>
-			<p className="w-[100%] text-right">
-				Source:{' '}
-				<a href="https://github.com/pvinis/artsy-salon-2022">
-					https://github.com/pvinis/artsy-salon-2022
-				</a>
-			</p>
+			<div className="w-[100%] flex justify-between mb-4">
+				<p>
+					Source:{' '}
+					<a href="https://github.com/pvinis/artsy-salon-2022">
+						https://github.com/pvinis/artsy-salon-2022
+					</a>
+				</p>
+				<p>For Artsy Salon 2022 — A Dev's Life — Pavlos Vinieratos</p>
+			</div>
 		</Page>
 	</div>
 )
