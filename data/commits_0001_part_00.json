@@ -3540,16 +3540,6 @@
 		"pushed_date": "2022-06-14 06:36:47"
 	},
 	{
-		"object_id": "5999a5b0d3a837598841c91bba8353c7ce3a3928",
-		"repository": "motion",
-		"message_headline": "Execute trending_score DAG at 03:30 UTC",
-		"message": "Execute trending_score DAG at 03:30 UTC",
-		"author_name": "Nikita Skalkin",
-		"authored_date": "2022-06-14 10:19:48",
-		"committed_date": "2022-06-14 10:19:48",
-		"pushed_date": "2022-06-14 10:20:23"
-	},
-	{
 		"object_id": "262fa5cfe999592c7a92aa99a4288dad47407849",
 		"repository": "fulcrum",
 		"message_headline": "adding number of lots on rolling 12-month time windows",

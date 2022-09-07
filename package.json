@@ -9,13 +9,26 @@
 		"preview": "vite preview"
 	},
 	"dependencies": {
+		"@visx/gradient": "2.10.0",
+		"@visx/group": "2.10.0",
+		"@visx/mock-data": "2.1.2",
+		"@visx/scale": "2.2.2",
+		"@visx/shape": "2.12.2",
+		"chart.js": "3.9.1",
+		"lodash": "4.17.21",
+		"lodash-contrib": "4.1200.1",
+		"luxon": "3.0.3",
 		"react": "^18.2.0",
+		"react-chartjs-2": "4.3.1",
 		"react-dom": "^18.2.0"
 	},
 	"devDependencies": {
 		"@types/react": "^18.0.17",
 		"@types/react-dom": "^18.0.6",
 		"@vitejs/plugin-react": "^2.0.1",
+		"autoprefixer": "10.4.8",
+		"postcss": "8.4.16",
+		"tailwindcss": "3.1.8",
 		"vite": "^3.0.7"
 	}
 }
