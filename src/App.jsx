@@ -15,6 +15,8 @@ const Soft = ({ children }) => (
 	</div>
 )
 
+const Separator = () => <hr className="mt-32 mb-12" />
+
 export const App = () => (
 	<div>
 		<Page>
@@ -25,7 +27,7 @@ export const App = () => (
 				Scroll down to experience the life of a dev.
 			</p>
 		</Page>
-		<hr className="my-8" />
+		<Separator />
 
 		<Horizontal>
 			<div>
@@ -40,7 +42,7 @@ export const App = () => (
 			</Soft>
 		</Horizontal>
 		<ByWeekDay />
-		<hr className="my-8" />
+		<Separator />
 
 		<Horizontal>
 			<div>
@@ -71,7 +73,7 @@ export const App = () => (
 				<ByCommitType />
 			</div>
 		</div>
-		<hr className="my-8" />
+		<Separator />
 
 		<Horizontal>
 			<div>
@@ -89,7 +91,7 @@ export const App = () => (
 			</Soft>
 		</Horizontal>
 		<ByFirstLast />
-		<hr className="my-8" />
+		<Separator />
 
 		<Horizontal>
 			<div>
@@ -107,7 +109,7 @@ export const App = () => (
 			</Soft>
 		</Horizontal>
 		<ByFirstLastAmount />
-		<hr className="my-8" />
+		<Separator />
 
 		<Page>
 			<div className="h-[100%] flex items-center justify-center flex-col">
