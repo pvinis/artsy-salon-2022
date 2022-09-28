@@ -51,4 +51,8 @@ const options = {
 	},
 }
 
-export const ByWeekDay = () => <Bar options={options} data={dat} />
+export const ByWeekDay = () => (
+	<div className="mx-4">
+		<Bar options={options} data={dat} />
+	</div>
+)

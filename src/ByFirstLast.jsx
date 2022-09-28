@@ -35,4 +35,8 @@ const data = {
 	],
 }
 
-export const ByFirstLast = () => <Scatter options={options} data={data} />
+export const ByFirstLast = () => (
+	<div className="mx-4">
+		<Scatter options={options} data={data} />
+	</div>
+)

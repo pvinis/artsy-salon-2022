@@ -10,7 +10,7 @@ const Horizontal = ({ children }) => (
 )
 
 const Soft = ({ children }) => (
-	<div className="italic text-gray-400 flex flex-col justify-end">
+	<div className="italic text-gray-400 flex flex-col justify-end mr-4">
 		{children}
 	</div>
 )
@@ -20,17 +20,19 @@ const Separator = () => <hr className="mt-32 mb-12" />
 export const App = () => (
 	<div>
 		<Page>
-			<h1 className="text-3xl">A Dev's Life</h1>
-			<p>An assortment of poems, thoughts, and a few colors, by Pavlos.</p>
+			<h1 className="text-6xl">A Dev's Life</h1>
+			<p className="text-2xl">
+				An assortment of poems, thoughts, and a few colors, by Pavlos.
+			</p>
 
-			<p className="absolute bottom-4 right-4">
+			<p className="absolute bottom-4 right-4 text-3xl">
 				Scroll down to experience the life of a dev.
 			</p>
 		</Page>
 		<Separator />
 
 		<Horizontal>
-			<div>
+			<div className="ml-4">
 				<h2 className="text-2xl">Weekdays</h2>
 				<p>Everyday, a dev codes.</p>
 				<p>Everyday, a dev commits.</p>
@@ -45,7 +47,7 @@ export const App = () => (
 		<Separator />
 
 		<Horizontal>
-			<div>
+			<div className="ml-4">
 				<h2 className="text-2xl">A chore is..</h2>
 				<p>A dev will code a feature or a fix.</p>
 				<p>They might write a test or perform an upgrade.</p>
@@ -76,7 +78,7 @@ export const App = () => (
 		<Separator />
 
 		<Horizontal>
-			<div>
+			<div className="ml-4">
 				<h2 className="text-2xl">Pretty consistency</h2>
 				<p>All the dots are here,</p>
 				<p>from 0 up to F.</p>
@@ -94,7 +96,7 @@ export const App = () => (
 		<Separator />
 
 		<Horizontal>
-			<div>
+			<div className="ml-4">
 				<h2 className="text-2xl">Petty inconsistency</h2>
 				<p>All the dots are here,</p>
 				<p>from 0 up to F.</p>
